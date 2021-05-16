@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--slack-color);
+  padding: 8px 0px;
+  color: whitesmoke;
+}
+
+.header_left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_left > .MuiSvgIcon-root {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header_right > .MuiSvgIcon-root {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header_search {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  
+}
+
+.header_search > .MuiSvgIcon-root {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: gray
+}
+ 
+.header_search > input {
+width: 100%;
+border: none;
+}
+ 
+.header_right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* width: 100%; */
+}
+
+.MuiSvgIcon-root:hover {
+  color: black;
+  opacity: 0.8;
+  cursor: pointer;
+}

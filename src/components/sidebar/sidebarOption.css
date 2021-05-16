@@ -1,0 +1,27 @@
+.sidebar_option {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: lighter;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 5px;
+}
+
+.sidebar_option > .MuiSvgIcon-root {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.channel_heading {
+  margin-left: 12px;
+}
+
+.sidebar_option:hover {
+  opacity: 0.5;
+  background-color: rgb(44, 2, 44);
+}
+
+.hash {
+  margin-right: 10px;
+}
