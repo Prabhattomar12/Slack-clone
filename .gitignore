@@ -1,2 +1,8 @@
 node_modules/
 package-lock.json
+.firebase/
+.firebaserc
+build/
+firebase-debug.log
+firebase.json
+slack-clone-link.txt

@@ -35,7 +35,7 @@ function Chat(props) {
       {roomMessages.map((message) => (
         <Message
           imageUrl={message.Image}
-          user={message.user}
+          user={message.name}
           timestamp={message.timestamp}
           message={message.message}
         />
